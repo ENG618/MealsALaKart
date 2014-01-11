@@ -32,10 +32,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     UIImage *image = [UIImage imageNamed:self.currentIcon.fileName];
-    //[self.currentIcon setItem:image];
+    //[UIImage imageNamed:current.fileName]
+    [self.currentItem setImage:image];
     
+    //Title of navigation control
     self.title = self.currentIcon.item;
-    
+    //Stting the labels text
     self.quantityLabel.text = [self.currentIcon quantity];
     self.priceLabel.text = [self.currentIcon price];
     

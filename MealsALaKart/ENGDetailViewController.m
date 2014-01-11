@@ -10,7 +10,6 @@
 
 @interface ENGDetailViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *currentItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailsLabel;
 @property (weak, nonatomic) IBOutlet UILabel *quantityLabel;
 @property (weak, nonatomic) IBOutlet UILabel *priceLabel;
 
@@ -18,10 +17,6 @@
 @end
 
 @implementation ENGDetailViewController
-//Done button to return to tableview
-- (IBAction)dismiss:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -41,7 +36,6 @@
     
     self.title = self.currentIcon.item;
     
-    self.detailsLabel.text = [self.currentIcon item];
     self.quantityLabel.text = [self.currentIcon quantity];
     self.priceLabel.text = [self.currentIcon price];
     

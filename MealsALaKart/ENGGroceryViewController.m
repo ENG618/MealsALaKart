@@ -259,6 +259,7 @@
     // Configure the cell...
     ENGItem *current = [itemDetails objectAtIndex:indexPath.row];
     cell.textLabel.text = [current item];
+    cell.detailTextLabel.text = [current quantity];
     
     return cell;
 }

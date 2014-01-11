@@ -260,6 +260,7 @@
     ENGItem *current = [itemDetails objectAtIndex:indexPath.row];
     cell.textLabel.text = [current item];
     cell.detailTextLabel.text = [current quantity];
+    cell.imageView.image = [UIImage imageNamed:current.fileName];
     
     return cell;
 }

@@ -12,4 +12,6 @@
 
 @interface ENGArticleViewController : UIViewController
 
+@property (nonatomic) ENGResearchDB *currentArticle;
+
 @end

@@ -312,6 +312,7 @@
     // Get the new view controller using [segue destinationViewController].
     ENGDetailViewController *pvc = [segue destinationViewController];
     // Pass the selected object to the new view controller.
+    //Get selected row
     NSIndexPath *path = [self.tableView indexPathForSelectedRow];
     ENGItem *c = itemDetails[path.row];
     [pvc setCurrentIcon:c];

@@ -9,6 +9,7 @@
 #import "ENGArticleDetailViewController.h"
 
 @interface ENGArticleDetailViewController ()
+@property (weak, nonatomic) IBOutlet UIScrollView *description;
 
 @end
 
@@ -27,6 +28,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    //Setting deescription lable
+    //self.description.text = [self.currentArticle description];
 }
 
 - (void)didReceiveMemoryWarning

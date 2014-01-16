@@ -105,6 +105,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C598BDE1887A1E000C57181 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				5C965EE01880FC6D00F51FB0 /* ENGGroceryViewController.h */,
+				5C965EE11880FC6D00F51FB0 /* ENGGroceryViewController.m */,
+				5C965EE31880FC8F00F51FB0 /* ENGDetailViewController.h */,
+				5C965EE41880FC8F00F51FB0 /* ENGDetailViewController.m */,
+				5C965EE61880FE7700F51FB0 /* ENGItem.h */,
+				5C965EE71880FE7700F51FB0 /* ENGItem.m */,
+			);
+			name = Shopping;
+			sourceTree = "<group>";
+		};
+		5C598BDF1887A1FA00C57181 /* Research */ = {
+			isa = PBXGroup;
+			children = (
+				5C598BCF18878C6D00C57181 /* ENGResearchViewController.h */,
+				5C598BD018878C6D00C57181 /* ENGResearchViewController.m */,
+				5C598BD218878C9A00C57181 /* ENGArticleViewController.h */,
+				5C598BD318878C9A00C57181 /* ENGArticleViewController.m */,
+				5C598BD518878CA900C57181 /* ENGArticleDetailViewController.h */,
+				5C598BD618878CA900C57181 /* ENGArticleDetailViewController.m */,
+				5C598BDB1887920200C57181 /* ENGResearchDB.h */,
+				5C598BDC1887920200C57181 /* ENGResearchDB.m */,
+			);
+			name = Research;
+			sourceTree = "<group>";
+		};
+		5C598BE01887A20700C57181 /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				5C598BC918878BF400C57181 /* ENGToDoViewController.h */,
+				5C598BCA18878BF400C57181 /* ENGToDoViewController.m */,
+				5C598BCC18878C0F00C57181 /* ENGAddItemViewController.h */,
+				5C598BCD18878C0F00C57181 /* ENGAddItemViewController.m */,
+			);
+			name = ToDo;
+			sourceTree = "<group>";
+		};
 		5C965E9C1880FBC300F51FB0 = {
 			isa = PBXGroup;
 			children = (
@@ -140,26 +179,11 @@
 			children = (
 				5C965EB71880FBC300F51FB0 /* ENGAppDelegate.h */,
 				5C965EB81880FBC300F51FB0 /* ENGAppDelegate.m */,
-				5C965EE01880FC6D00F51FB0 /* ENGGroceryViewController.h */,
-				5C965EE11880FC6D00F51FB0 /* ENGGroceryViewController.m */,
-				5C965EE31880FC8F00F51FB0 /* ENGDetailViewController.h */,
-				5C965EE41880FC8F00F51FB0 /* ENGDetailViewController.m */,
-				5C598BC918878BF400C57181 /* ENGToDoViewController.h */,
-				5C598BCA18878BF400C57181 /* ENGToDoViewController.m */,
-				5C598BCC18878C0F00C57181 /* ENGAddItemViewController.h */,
-				5C598BCD18878C0F00C57181 /* ENGAddItemViewController.m */,
-				5C598BCF18878C6D00C57181 /* ENGResearchViewController.h */,
-				5C598BD018878C6D00C57181 /* ENGResearchViewController.m */,
-				5C598BD218878C9A00C57181 /* ENGArticleViewController.h */,
-				5C598BD318878C9A00C57181 /* ENGArticleViewController.m */,
-				5C598BD518878CA900C57181 /* ENGArticleDetailViewController.h */,
-				5C598BD618878CA900C57181 /* ENGArticleDetailViewController.m */,
+				5C598BDE1887A1E000C57181 /* Shopping */,
+				5C598BE01887A20700C57181 /* ToDo */,
+				5C598BDF1887A1FA00C57181 /* Research */,
 				5C965EBA1880FBC300F51FB0 /* Main_iPhone.storyboard */,
 				5C965EBD1880FBC300F51FB0 /* Main_iPad.storyboard */,
-				5C965EE61880FE7700F51FB0 /* ENGItem.h */,
-				5C965EE71880FE7700F51FB0 /* ENGItem.m */,
-				5C598BDB1887920200C57181 /* ENGResearchDB.h */,
-				5C598BDC1887920200C57181 /* ENGResearchDB.m */,
 				5C965EC31880FBC300F51FB0 /* Images.xcassets */,
 				5C965EAF1880FBC300F51FB0 /* Supporting Files */,
 			);

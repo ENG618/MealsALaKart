@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ENGResearchDB.h"
+#import "ENGArticleDetailViewController.h"
 
 @interface ENGArticleViewController : UIViewController
 

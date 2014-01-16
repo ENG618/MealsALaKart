@@ -1,5 +1,5 @@
 //
-//  ENGDResearchDB.h
+//  ENGResearchDB.h
 //  MealsALaKart
 //
 //  Created by Eric Garcia on 1/15/14.
@@ -8,9 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ENGDResearchDB : NSObject
+@interface ENGResearchDB : NSObject
 
 @property (nonatomic) NSString *articleTitle;
+@property (nonatomic) NSString *docType;
+@property (nonatomic) NSString *source;
 @property (nonatomic) NSString *url;
 @property (nonatomic) NSString *description;
 

@@ -10,4 +10,8 @@
 
 @interface ENGDResearchDB : NSObject
 
+@property (nonatomic) NSString *articleTitle;
+@property (nonatomic) NSString *url;
+@property (nonatomic) NSString *description;
+
 @end

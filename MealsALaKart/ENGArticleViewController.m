@@ -32,7 +32,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     //title of navigation control
-    self.title = self.currentArticle.articleTitle;
+    self.title = self.currentArticle.docType;
     
     //Setting the labels text
     self.aTitle.text = [self.currentArticle articleTitle];

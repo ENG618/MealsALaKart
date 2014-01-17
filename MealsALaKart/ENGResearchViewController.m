@@ -180,6 +180,7 @@
     // Pass the selected object to the new view controller.
     NSIndexPath *path = [self.tableView indexPathForSelectedRow];
     ENGResearchDB *c = articles[path.row];
+    //avc.article = [articles objectAtIndex:path.row];
     [avc setCurrentArticle:c];
 }
 

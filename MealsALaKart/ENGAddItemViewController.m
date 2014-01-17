@@ -13,6 +13,8 @@
 @end
 
 @implementation ENGAddItemViewController
+@synthesize tView;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -23,10 +25,18 @@
     return self;
 }
 
+-(void)insertNewObject:(id)sender{
+    
+}    
+    
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    if (self.tView) {
+        self.tView.text = [self.tView description];
+    }
+
 }
 
 - (void)didReceiveMemoryWarning

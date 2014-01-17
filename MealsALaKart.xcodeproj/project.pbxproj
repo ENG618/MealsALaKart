@@ -13,6 +13,7 @@
 		5C598BD418878C9A00C57181 /* ENGArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C598BD318878C9A00C57181 /* ENGArticleViewController.m */; };
 		5C598BD718878CA900C57181 /* ENGArticleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C598BD618878CA900C57181 /* ENGArticleDetailViewController.m */; };
 		5C598BDD1887920200C57181 /* ENGResearchDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C598BDC1887920200C57181 /* ENGResearchDB.m */; };
+		5C598BE31887D8A600C57181 /* ENGData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C598BE21887D8A600C57181 /* ENGData.m */; };
 		5C965EA91880FBC300F51FB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C965EA81880FBC300F51FB0 /* Foundation.framework */; };
 		5C965EAB1880FBC300F51FB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C965EAA1880FBC300F51FB0 /* CoreGraphics.framework */; };
 		5C965EAD1880FBC300F51FB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C965EAC1880FBC300F51FB0 /* UIKit.framework */; };
@@ -55,6 +56,8 @@
 		5C598BD618878CA900C57181 /* ENGArticleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENGArticleDetailViewController.m; sourceTree = "<group>"; };
 		5C598BDB1887920200C57181 /* ENGResearchDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENGResearchDB.h; sourceTree = "<group>"; };
 		5C598BDC1887920200C57181 /* ENGResearchDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENGResearchDB.m; sourceTree = "<group>"; };
+		5C598BE11887D8A600C57181 /* ENGData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENGData.h; sourceTree = "<group>"; };
+		5C598BE21887D8A600C57181 /* ENGData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENGData.m; sourceTree = "<group>"; };
 		5C965EA51880FBC300F51FB0 /* MealsALaKart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealsALaKart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C965EA81880FBC300F51FB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5C965EAA1880FBC300F51FB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -140,6 +143,8 @@
 				5C598BCA18878BF400C57181 /* ENGToDoViewController.m */,
 				5C598BCC18878C0F00C57181 /* ENGAddItemViewController.h */,
 				5C598BCD18878C0F00C57181 /* ENGAddItemViewController.m */,
+				5C598BE11887D8A600C57181 /* ENGData.h */,
+				5C598BE21887D8A600C57181 /* ENGData.m */,
 			);
 			name = ToDo;
 			sourceTree = "<group>";
@@ -322,6 +327,7 @@
 				5C598BD718878CA900C57181 /* ENGArticleDetailViewController.m in Sources */,
 				5C965EE51880FC8F00F51FB0 /* ENGDetailViewController.m in Sources */,
 				5C965EB51880FBC300F51FB0 /* main.m in Sources */,
+				5C598BE31887D8A600C57181 /* ENGData.m in Sources */,
 				5C965EE21880FC6D00F51FB0 /* ENGGroceryViewController.m in Sources */,
 				5C598BDD1887920200C57181 /* ENGResearchDB.m in Sources */,
 				5C965EE81880FE7700F51FB0 /* ENGItem.m in Sources */,

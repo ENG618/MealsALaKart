@@ -7,12 +7,17 @@
 //
 
 #import "ENGAppDelegate.h"
+#import "ENGData.h"
 
 @implementation ENGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // Initilize dictionary
+    [ENGData getAllNotes];
+    
     return YES;
 }
 							
